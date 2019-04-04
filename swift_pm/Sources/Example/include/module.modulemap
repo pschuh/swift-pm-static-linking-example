@@ -1,0 +1,7 @@
+module Example {
+    export *
+
+//  Also works:  link "/full_path_to/test.so"
+    link "test"
+    header "test.h"
+}
